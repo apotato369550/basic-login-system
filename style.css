@@ -1,0 +1,105 @@
+body{
+	background-color: white;
+	font-family: monospace;
+	color: black;
+}
+header{
+	background-color: #e6e6e6;
+}
+
+/* Navigation Bar */
+#navbar{
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.logo {
+	height: 40px;
+	margin-top: 15px;
+	margin-left: 40px;
+}
+.nav-links{
+	display: flex;
+	list-style-type: none;
+	margin-right: 250px;
+	margin-left: 20px; 
+}
+.nav-item{
+	margin: 0px 40px 0px 40px;
+}
+.nav-link {
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+}
+.nav-link:hover{
+	border-bottom-style: solid;
+}
+.page-link {
+	color: black;
+	font-size: 23px;
+	padding: 20px;	
+}
+
+/* Login/Logout/ Signup forms */
+.log-form {
+	display: inline-block;
+}
+.form-input{
+	font-size: 15px;
+	background-color: white;
+	border-color: white;
+	color: black;
+	padding: 7px 15px;
+	margin: 7px auto 7px auto;
+}
+.login-logout-button {
+	font-size: 15px;
+	background-color: black;
+	color: white;
+	border-radius: 15%;
+	border-color: black;
+	padding: 10px 15px;
+	margin: 7px auto 7px auto;
+}
+
+
+#main-title{
+	font-size: 35px;
+}
+.submit-button {
+	font-size: 15px;
+	background-color: black;
+	color: white;
+	border-radius: 15%;
+	border-color: black;
+	padding: 10px 15px;
+	margin: 7px auto 7px auto;
+	display: block;
+}
+.error-message{
+	font-size: 13px;
+	color: red;
+}
+.success-message{
+	font-size: 13px;
+	color: green;
+}
+#forgot-password{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
+
+
+
+.main-wrapper{
+	text-align: center;
+	margin-top: 100px;
+}
+.default-section{
+	display: inline-block;
+	background-color: #e6e6e6;
+	width: 400px;
+	padding: 20px;
+}
