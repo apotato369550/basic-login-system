@@ -14,17 +14,17 @@ You'll also need to create the databases where the accounts & requests will be s
 Creating the tables:
 
 "users" table:
-'''
+```
  CREATE TABLE users (
   userId int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
   username TINYTEXT NOT NULL,
   userEmail TINYTEXT NOT NULL,
   userPassword LONGTEXT NOT NULL
  );
-'''
+```
 
 "resetpassword" table:
-'''
+```
  CREATE TABLE users (
   id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
   email TEXT NOT NULL,
@@ -32,10 +32,10 @@ Creating the tables:
   token LONGTEXT NOT NULL,
   expiry TEXT NOT NULL
  );
-'''
+```
 
 "accountdelete" table:
-'''
+```
  CREATE TABLE users (
   id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
   username TINYTEXT NOT NULL,
@@ -43,7 +43,7 @@ Creating the tables:
   userPassword LONGTEXT NOT NULL
   expiry TEXT NOT NULL
  );
-'''
+```
 
 Simply run these commands under the "SQL" tab of your database and you should be good to go:)
 
